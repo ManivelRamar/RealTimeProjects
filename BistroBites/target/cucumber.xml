@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="838.472" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user gives invalid username and password" time="171.737">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Click the Account button...............................................passed
+And Give the wrong username and password....................................passed
+And Click the login button..................................................passed
+Then check the output whether it is showing Invalid mobile number or not....passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user successfully add the dosa" time="113.791">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Check a dropdown labeled Dosa and click it.............................passed
+And Select the Masala Dosa option...........................................passed
+And Add it to cart..........................................................passed
+Then Verify the item in Cart................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user fills out the registration form and ignores the confirm password" time="114.252">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Click the Account button...............................................passed
+And Fill out the registration form with dummy data and skip the confirm password text label.passed
+And Click the Register button...............................................passed
+Then Get the pop-up please fill out the field...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user search for the coke can and check the price" time="169.476">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Click the search icon..................................................passed
+And Search for coke.........................................................passed
+Then Check the price is 1.50 dollar or not..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user selects the Spanish Omelet" time="124.012">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Click the search icon..................................................passed
+And Search for the Spanish Omelet and select it.............................passed
+And Select the option by probability........................................passed
+Then Check the dollar probabiltiy...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the functionalities of Bistrobites website" name="The user read Our Policy" time="144.974">
+<system-out><![CDATA[
+Given launch the url to get homepage of the Bistrobites website.............passed
+When Click the our story option.............................................passed
+Then Check for spelling mistake.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
